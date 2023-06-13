@@ -8,5 +8,5 @@
 | Logged-in user Balance      | `GET`  | `https://coded-projects-api.herokuapp.com/api/bank/v3/balance`            | `no data required`          | NA                                 |
 | Logged-in user Transactions | `GET`  | `https://coded-projects-api.herokuapp.com/api/bank/v3/transactions`       | `no data required`          | NA                                 |
 | Deposit                     | `POST` | `https://coded-projects-api.herokuapp.com/api/bank/v3/deposit`            | `amount`                    | NA                                 |
-| Withdrawal                  | `POST` | `https://coded-projects-api.herokuapp.com/api/bank/v3/withdrawal`         | `amount`                    | NA                                 |
+| Withdrawal                  | `POST` | `https://coded-projects-api.herokuapp.com/api/bank/v3/withdraw`         | `amount`                    | NA                                 |
 | Transfer amount             | `POST` | `https://coded-projects-api.herokuapp.com/api/bank/v3/transfer/:username` | `amount`                    | `route param username is required` |
